@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>УГАДАЙ ЧИСЛО</title>
+    <link rel="stylesheet" href="03.css">
+</head>
+<body>
+<section class="number">
+    <label class="number-form__label"></label>
+    <h1 class="number__header">Угадай Число!</h1>
+    <label class="number__avatar">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61BRwWBPKfL.png"></label>
+    <div class="number__inputForm">
+        <label class="number__label" for="yourMinNumber">Введите число от:</label>
+        <input class="number__input" type="number" id="yourMinNumber" value="1" min="1" max="100">
+        <label class="number__label" for="yourMaxNumber">Введите число до:</label>
+        <input class="number__input" type="number" id="yourMaxNumber" value="200" min="1" max="200">
+        <p></p>
+        <label class="number__label" for="attempts">Выберите количество попыток:</label>
+        <input class="number__input" type="number" id="attempts" value="15" min="1" max="15">
+ </div>
+    <div class="number__title" id="startText">Привет! Я загадал число от <label id="minNumber"> 1 </label> до <label
+            id="maxNumber"> 200 </label>. Попробуй угадать его за <label id="yourAttempts"></label> 15 попыток!</div>
+    <div class="inputForm2">
+        <label class="myVariant__label" for="myVariant">Введите свой вариант:</label>
+        <input class="myField myVariant__input" type="text" id="myVariant">
+    </div>
+    <div class="button">
+        <button class="button__generate" type="button" id="Generate" onclick="generate()">GENERATE</button>
+        <button class="button__exit" type="button" id="Reset" onclick="window.location.reload()">Exit</button>
+    </div>
+    <div class="result">
+        <p class="compNum" id="compNum"></p>
+        <p class="out" id="out"></p>
+    </div>
+    <script src="1.js"></script>
+</section>
+</body>
+</html>
+
+
+

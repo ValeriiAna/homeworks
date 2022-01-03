@@ -1,0 +1,53 @@
+body {
+    background-color: darkorange;
+}
+.number {
+    background-color: mediumpurple;
+    border: indigo 5px solid;
+    margin: 0 auto;
+    width: 900px;
+    height: 800px;
+    color: indigo;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Apple Braille";
+    text-align: center;
+
+}
+
+.number__input {
+    width: 20%;
+    padding: 10px 0 8px;
+    opacity: 0.5;
+}
+
+.number__avatar {
+width: 10px;
+
+}
+
+
+.button__generate {
+    background-color: indigo;
+    color: greenyellow;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.6;
+    padding: 10px 30px;
+
+}
+
+.button__exit {
+    background-color: indigo;
+    padding: 10px 30px;
+    color: greenyellow;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.myVariant__input{
+    width: 20%;
+    padding: 10px 0 8px;
+    opacity: 0.5;
+}
